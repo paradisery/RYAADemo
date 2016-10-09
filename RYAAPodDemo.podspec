@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "RYAAPodDemo"
   s.version      = "0.0.1"
-  s.summary      = "RYAAPodDemo."
+  s.summary      = "RYAAPodDemo"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    这只是一个建立pod仓库的简单demo。
                    DESC
-  s.homepage     = "https://github.com/paradisery/RYAADemo.git"
+  s.homepage     = "https://github.com/paradisery/RYAADemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "podDemo", "RYAADemo/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "podDemo", "RYAADemo/RYAADemo/RYAADemo/podDemo/**/*.{h,m}"
+  # s.exclude_files = "RYAADemo/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

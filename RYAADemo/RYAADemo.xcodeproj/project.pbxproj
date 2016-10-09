@@ -15,6 +15,7 @@
 		E7979BBF1DAA0FEE002F08E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7979BBD1DAA0FEE002F08E0 /* LaunchScreen.storyboard */; };
 		E7979BCA1DAA0FEE002F08E0 /* RYAADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BC91DAA0FEE002F08E0 /* RYAADemoTests.m */; };
 		E7979BD51DAA0FEE002F08E0 /* RYAADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BD41DAA0FEE002F08E0 /* RYAADemoUITests.m */; };
+		E7979BE51DAA1F3E002F08E0 /* AccessAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7979BD01DAA0FEE002F08E0 /* RYAADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYAADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7979BD41DAA0FEE002F08E0 /* RYAADemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAADemoUITests.m; sourceTree = "<group>"; };
 		E7979BD61DAA0FEE002F08E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7979BE31DAA1F3E002F08E0 /* AccessAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessAuthority.h; path = podDemo/AccessAuthority.h; sourceTree = "<group>"; };
+		E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccessAuthority.m; path = podDemo/AccessAuthority.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E7979BAE1DAA0FEE002F08E0 /* RYAADemo */ = {
 			isa = PBXGroup;
 			children = (
+				E7979BE21DAA1F2D002F08E0 /* podDemo */,
 				E7979BB21DAA0FEE002F08E0 /* AppDelegate.h */,
 				E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */,
 				E7979BB51DAA0FEE002F08E0 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				E7979BD61DAA0FEE002F08E0 /* Info.plist */,
 			);
 			path = RYAADemoUITests;
+			sourceTree = "<group>";
+		};
+		E7979BE21DAA1F2D002F08E0 /* podDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7979BE31DAA1F3E002F08E0 /* AccessAuthority.h */,
+				E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */,
+			);
+			name = podDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				E7979BB71DAA0FEE002F08E0 /* ViewController.m in Sources */,
 				E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */,
 				E7979BB11DAA0FEE002F08E0 /* main.m in Sources */,
+				E7979BE51DAA1F3E002F08E0 /* AccessAuthority.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +522,7 @@
 				E7979BDB1DAA0FEE002F08E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7979BDC1DAA0FEE002F08E0 /* Build configuration list for PBXNativeTarget "RYAADemoTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +531,7 @@
 				E7979BDE1DAA0FEE002F08E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7979BDF1DAA0FEE002F08E0 /* Build configuration list for PBXNativeTarget "RYAADemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +540,7 @@
 				E7979BE11DAA0FEE002F08E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
