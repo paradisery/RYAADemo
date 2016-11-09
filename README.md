@@ -4,3 +4,4 @@ Demo，有详细介绍
  2、GCD.
  3、Block.
  4、Delegate.
+ 5、单例.
