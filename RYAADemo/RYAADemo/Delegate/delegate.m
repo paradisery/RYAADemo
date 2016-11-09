@@ -24,8 +24,6 @@
     if ([_delegate respondsToSelector:@selector(vcSendValue:)]) {
          [_delegate vcSendValue:_tf.text];
     }
-   
-    
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {

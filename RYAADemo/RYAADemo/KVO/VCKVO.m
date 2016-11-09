@@ -39,6 +39,7 @@
     
     if ([keyPath isEqualToString:@"kk"]) {
         _lab.text=[NSString stringWithFormat:@"%@",[change valueForKey:@"new"]];
+        _oldLable.text=[NSString stringWithFormat:@"%@",[change valueForKey:@"old"]];
         id oldState = [change objectForKey:NSKeyValueChangeOldKey];
         NSLog(@"old----------%@",oldState);
         id newState = [change objectForKey:NSKeyValueChangeNewKey];

@@ -26,15 +26,6 @@ void (^printTheNum)(int) = ^(int num){
 //    block的核心思想：比如我打你一巴掌(发送消息),然后你说你打到我了(响应消息),那我心里就爽了(回调block).
 //    block的内存空间是另外开辟的，所以不会立马执行block内的代码
     
-//    LoginVC * login=[[LoginVC alloc]initWithResultBlock:^(BOOL isLogin) {
-//        if (isLogin)
-//        {//登录完成以后再调用的代码.
-////            NSString * heheda = [[publicValue shareValue].userInof objectForKey:@"account"];
-////            [self.my_btn setTitle:heheda forState:UIControlStateNormal];
-//        }
-//    } Animation:YES];
-    
-//    [self presentViewController:login animated:YES completion:^{}];
     UITapGestureRecognizer * tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)];
     self.lab.userInteractionEnabled=YES;
     [self.lab addGestureRecognizer:tap];
@@ -72,7 +63,7 @@ void (^printTheNum)(int) = ^(int num){
 - (IBAction)block3:(id)sender {
     int b=7;
     int (^test3)(int) = ^(int temp ){
-        //b的值已经付进来了
+        //b的值已经赋进来了
         return temp+b;
     };
     b=20;

@@ -10,6 +10,7 @@
 
 @interface VCKVO : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *lab;
+@property (weak, nonatomic) IBOutlet UILabel *oldLable;
 @property (weak, nonatomic) IBOutlet UIButton *but;
 
 @end

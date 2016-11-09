@@ -22,23 +22,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self xixi];
+    //单例
     sharedInstance * ry=[sharedInstance sharedInstance];
     NSLog(@"%@",ry);
     
 }
 
--(void)xixi{
-//    [[publicValue shareValue].userInof setValue:@"ozx" forKey:@"account"];
-//    [publicValue shareValue].isLogin = YES;
-    //调用block
-//    getLoginResultBlock();
-//    [self dismissViewControllerAnimated:YES completion:^{
-//    }];
-//    self.block(_lable.text);
-}
+
 - (IBAction)btn:(id)sender {
-    
     self.block(_tf.text);
     [self dismissViewControllerAnimated:YES completion:nil];
 }

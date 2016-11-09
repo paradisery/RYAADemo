@@ -19,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+//雇佣方
+//实现代理方法
 -(void)vcSendValue:(NSString *)value{
     _lable.text=value;
       NSLog(@"%@",value);
@@ -27,6 +29,7 @@
     UIStoryboard * sb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
     delegate * devc = [sb instantiateViewControllerWithIdentifier:@"dele"];
 //    delegate * devc=[delegate new];
+    
     devc.delegate=self;
     [self presentViewController:devc animated:YES completion:nil];
 }

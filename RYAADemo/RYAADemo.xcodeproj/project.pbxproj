@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E76451911DD2B52C009EFF73 /* delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76451901DD2B52C009EFF73 /* delegate.m */; };
-		E76451941DD2B84B009EFF73 /* delegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E76451931DD2B84B009EFF73 /* delegateVC.m */; };
-		E771D9C61DCAC99100190263 /* kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9C51DCAC99100190263 /* kvo.m */; };
-		E771D9C91DCB0A3800190263 /* block.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9C81DCB0A3800190263 /* block.m */; };
-		E771D9CC1DCB293300190263 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9CB1DCB293300190263 /* LoginVC.m */; };
-		E788861D1DD1A33D00105E1B /* sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E788861C1DD1A33D00105E1B /* sharedInstance.m */; };
-		E78B788C1DC9B87B005C5155 /* VCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B788B1DC9B87B005C5155 /* VCKVO.m */; };
-		E78B788F1DC9B8A6005C5155 /* VCGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B788E1DC9B8A6005C5155 /* VCGCD.m */; };
 		E7979BB11DAA0FEE002F08E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB01DAA0FEE002F08E0 /* main.m */; };
 		E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */; };
-		E7979BB71DAA0FEE002F08E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB61DAA0FEE002F08E0 /* ViewController.m */; };
 		E7979BBA1DAA0FEE002F08E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7979BB81DAA0FEE002F08E0 /* Main.storyboard */; };
 		E7979BBC1DAA0FEE002F08E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7979BBB1DAA0FEE002F08E0 /* Assets.xcassets */; };
 		E7979BBF1DAA0FEE002F08E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7979BBD1DAA0FEE002F08E0 /* LaunchScreen.storyboard */; };
 		E7979BCA1DAA0FEE002F08E0 /* RYAADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BC91DAA0FEE002F08E0 /* RYAADemoTests.m */; };
 		E7979BD51DAA0FEE002F08E0 /* RYAADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BD41DAA0FEE002F08E0 /* RYAADemoUITests.m */; };
 		E7979BE51DAA1F3E002F08E0 /* AccessAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */; };
+		E7CCC6621DD3009900D76839 /* kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6611DD3009900D76839 /* kvo.m */; };
+		E7CCC6651DD300B200D76839 /* VCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6641DD300B200D76839 /* VCKVO.m */; };
+		E7CCC66D1DD3018B00D76839 /* delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC66A1DD3018B00D76839 /* delegate.m */; };
+		E7CCC66E1DD3018B00D76839 /* delegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC66C1DD3018B00D76839 /* delegateVC.m */; };
+		E7CCC6731DD3019500D76839 /* block.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6701DD3019500D76839 /* block.m */; };
+		E7CCC6741DD3019500D76839 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6721DD3019500D76839 /* LoginVC.m */; };
+		E7CCC6771DD301A200D76839 /* VCGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6761DD301A200D76839 /* VCGCD.m */; };
+		E7CCC67B1DD301B700D76839 /* sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC67A1DD301B700D76839 /* sharedInstance.m */; };
+		E7CCC67E1DD3037A00D76839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC67D1DD3037A00D76839 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,28 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E764518F1DD2B52C009EFF73 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegate.h; sourceTree = "<group>"; };
-		E76451901DD2B52C009EFF73 /* delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegate.m; sourceTree = "<group>"; };
-		E76451921DD2B84B009EFF73 /* delegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateVC.h; sourceTree = "<group>"; };
-		E76451931DD2B84B009EFF73 /* delegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateVC.m; sourceTree = "<group>"; };
-		E771D9C41DCAC99100190263 /* kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kvo.h; sourceTree = "<group>"; };
-		E771D9C51DCAC99100190263 /* kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kvo.m; sourceTree = "<group>"; };
-		E771D9C71DCB0A3800190263 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
-		E771D9C81DCB0A3800190263 /* block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = block.m; sourceTree = "<group>"; };
-		E771D9CA1DCB293300190263 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
-		E771D9CB1DCB293300190263 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
-		E788861B1DD1A33D00105E1B /* sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedInstance.h; sourceTree = "<group>"; };
-		E788861C1DD1A33D00105E1B /* sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedInstance.m; sourceTree = "<group>"; };
-		E78B788A1DC9B87B005C5155 /* VCKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVO.h; sourceTree = "<group>"; };
-		E78B788B1DC9B87B005C5155 /* VCKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVO.m; sourceTree = "<group>"; };
-		E78B788D1DC9B8A6005C5155 /* VCGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCGCD.h; sourceTree = "<group>"; };
-		E78B788E1DC9B8A6005C5155 /* VCGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCGCD.m; sourceTree = "<group>"; };
 		E7979BAC1DAA0FEE002F08E0 /* RYAADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYAADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7979BB01DAA0FEE002F08E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7979BB21DAA0FEE002F08E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E7979BB51DAA0FEE002F08E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E7979BB61DAA0FEE002F08E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E7979BB91DAA0FEE002F08E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7979BBB1DAA0FEE002F08E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7979BBE1DAA0FEE002F08E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +60,24 @@
 		E7979BD61DAA0FEE002F08E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7979BE31DAA1F3E002F08E0 /* AccessAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessAuthority.h; path = podDemo/AccessAuthority.h; sourceTree = "<group>"; };
 		E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccessAuthority.m; path = podDemo/AccessAuthority.m; sourceTree = "<group>"; };
+		E7CCC6601DD3009900D76839 /* kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kvo.h; path = KVO/kvo.h; sourceTree = "<group>"; };
+		E7CCC6611DD3009900D76839 /* kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kvo.m; path = KVO/kvo.m; sourceTree = "<group>"; };
+		E7CCC6631DD300B200D76839 /* VCKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCKVO.h; path = KVO/VCKVO.h; sourceTree = "<group>"; };
+		E7CCC6641DD300B200D76839 /* VCKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCKVO.m; path = KVO/VCKVO.m; sourceTree = "<group>"; };
+		E7CCC6691DD3018B00D76839 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = delegate.h; path = Delegate/delegate.h; sourceTree = "<group>"; };
+		E7CCC66A1DD3018B00D76839 /* delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = delegate.m; path = Delegate/delegate.m; sourceTree = "<group>"; };
+		E7CCC66B1DD3018B00D76839 /* delegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = delegateVC.h; path = Delegate/delegateVC.h; sourceTree = "<group>"; };
+		E7CCC66C1DD3018B00D76839 /* delegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = delegateVC.m; path = Delegate/delegateVC.m; sourceTree = "<group>"; };
+		E7CCC66F1DD3019500D76839 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Block/block.h; sourceTree = "<group>"; };
+		E7CCC6701DD3019500D76839 /* block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = block.m; path = Block/block.m; sourceTree = "<group>"; };
+		E7CCC6711DD3019500D76839 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = Block/LoginVC.h; sourceTree = "<group>"; };
+		E7CCC6721DD3019500D76839 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = Block/LoginVC.m; sourceTree = "<group>"; };
+		E7CCC6751DD301A200D76839 /* VCGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCGCD.h; path = GCD/VCGCD.h; sourceTree = "<group>"; };
+		E7CCC6761DD301A200D76839 /* VCGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCGCD.m; path = GCD/VCGCD.m; sourceTree = "<group>"; };
+		E7CCC6791DD301B700D76839 /* sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sharedInstance.h; path = "单例/sharedInstance.h"; sourceTree = "<group>"; };
+		E7CCC67A1DD301B700D76839 /* sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sharedInstance.m; path = "单例/sharedInstance.m"; sourceTree = "<group>"; };
+		E7CCC67C1DD3037A00D76839 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = GCD/ViewController.h; sourceTree = "<group>"; };
+		E7CCC67D1DD3037A00D76839 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = GCD/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,27 +128,14 @@
 		E7979BAE1DAA0FEE002F08E0 /* RYAADemo */ = {
 			isa = PBXGroup;
 			children = (
-				E7979BE21DAA1F2D002F08E0 /* podDemo */,
+				E7979BE21DAA1F2D002F08E0 /* Push&Location */,
+				E7CCC65F1DD3006300D76839 /* KVO */,
+				E7CCC6671DD300D100D76839 /* GCD */,
+				E7CCC6661DD300C900D76839 /* Block */,
+				E7CCC6681DD300D700D76839 /* Delegate */,
+				E7CCC6781DD301A900D76839 /* 单例 */,
 				E7979BB21DAA0FEE002F08E0 /* AppDelegate.h */,
 				E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */,
-				E7979BB51DAA0FEE002F08E0 /* ViewController.h */,
-				E7979BB61DAA0FEE002F08E0 /* ViewController.m */,
-				E78B788D1DC9B8A6005C5155 /* VCGCD.h */,
-				E78B788E1DC9B8A6005C5155 /* VCGCD.m */,
-				E78B788A1DC9B87B005C5155 /* VCKVO.h */,
-				E78B788B1DC9B87B005C5155 /* VCKVO.m */,
-				E771D9C41DCAC99100190263 /* kvo.h */,
-				E771D9C51DCAC99100190263 /* kvo.m */,
-				E771D9C71DCB0A3800190263 /* block.h */,
-				E771D9C81DCB0A3800190263 /* block.m */,
-				E771D9CA1DCB293300190263 /* LoginVC.h */,
-				E771D9CB1DCB293300190263 /* LoginVC.m */,
-				E788861B1DD1A33D00105E1B /* sharedInstance.h */,
-				E788861C1DD1A33D00105E1B /* sharedInstance.m */,
-				E76451921DD2B84B009EFF73 /* delegateVC.h */,
-				E76451931DD2B84B009EFF73 /* delegateVC.m */,
-				E764518F1DD2B52C009EFF73 /* delegate.h */,
-				E76451901DD2B52C009EFF73 /* delegate.m */,
 				E7979BB81DAA0FEE002F08E0 /* Main.storyboard */,
 				E7979BBB1DAA0FEE002F08E0 /* Assets.xcassets */,
 				E7979BBD1DAA0FEE002F08E0 /* LaunchScreen.storyboard */,
@@ -184,13 +171,66 @@
 			path = RYAADemoUITests;
 			sourceTree = "<group>";
 		};
-		E7979BE21DAA1F2D002F08E0 /* podDemo */ = {
+		E7979BE21DAA1F2D002F08E0 /* Push&Location */ = {
 			isa = PBXGroup;
 			children = (
 				E7979BE31DAA1F3E002F08E0 /* AccessAuthority.h */,
 				E7979BE41DAA1F3E002F08E0 /* AccessAuthority.m */,
 			);
-			name = podDemo;
+			name = "Push&Location";
+			sourceTree = "<group>";
+		};
+		E7CCC65F1DD3006300D76839 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCC6631DD300B200D76839 /* VCKVO.h */,
+				E7CCC6641DD300B200D76839 /* VCKVO.m */,
+				E7CCC6601DD3009900D76839 /* kvo.h */,
+				E7CCC6611DD3009900D76839 /* kvo.m */,
+			);
+			name = KVO;
+			sourceTree = "<group>";
+		};
+		E7CCC6661DD300C900D76839 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCC66F1DD3019500D76839 /* block.h */,
+				E7CCC6701DD3019500D76839 /* block.m */,
+				E7CCC6711DD3019500D76839 /* LoginVC.h */,
+				E7CCC6721DD3019500D76839 /* LoginVC.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		E7CCC6671DD300D100D76839 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCC6751DD301A200D76839 /* VCGCD.h */,
+				E7CCC6761DD301A200D76839 /* VCGCD.m */,
+				E7CCC67C1DD3037A00D76839 /* ViewController.h */,
+				E7CCC67D1DD3037A00D76839 /* ViewController.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		E7CCC6681DD300D700D76839 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCC66B1DD3018B00D76839 /* delegateVC.h */,
+				E7CCC66C1DD3018B00D76839 /* delegateVC.m */,
+				E7CCC6691DD3018B00D76839 /* delegate.h */,
+				E7CCC66A1DD3018B00D76839 /* delegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		E7CCC6781DD301A900D76839 /* 单例 */ = {
+			isa = PBXGroup;
+			children = (
+				E7CCC6791DD301B700D76839 /* sharedInstance.h */,
+				E7CCC67A1DD301B700D76839 /* sharedInstance.m */,
+			);
+			name = "单例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,18 +367,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76451911DD2B52C009EFF73 /* delegate.m in Sources */,
-				E7979BB71DAA0FEE002F08E0 /* ViewController.m in Sources */,
-				E771D9C61DCAC99100190263 /* kvo.m in Sources */,
-				E771D9CC1DCB293300190263 /* LoginVC.m in Sources */,
+				E7CCC66D1DD3018B00D76839 /* delegate.m in Sources */,
+				E7CCC6621DD3009900D76839 /* kvo.m in Sources */,
+				E7CCC67B1DD301B700D76839 /* sharedInstance.m in Sources */,
+				E7CCC6771DD301A200D76839 /* VCGCD.m in Sources */,
+				E7CCC6741DD3019500D76839 /* LoginVC.m in Sources */,
+				E7CCC67E1DD3037A00D76839 /* ViewController.m in Sources */,
 				E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */,
-				E78B788C1DC9B87B005C5155 /* VCKVO.m in Sources */,
-				E78B788F1DC9B8A6005C5155 /* VCGCD.m in Sources */,
-				E771D9C91DCB0A3800190263 /* block.m in Sources */,
+				E7CCC6651DD300B200D76839 /* VCKVO.m in Sources */,
 				E7979BB11DAA0FEE002F08E0 /* main.m in Sources */,
 				E7979BE51DAA1F3E002F08E0 /* AccessAuthority.m in Sources */,
-				E788861D1DD1A33D00105E1B /* sharedInstance.m in Sources */,
-				E76451941DD2B84B009EFF73 /* delegateVC.m in Sources */,
+				E7CCC6731DD3019500D76839 /* block.m in Sources */,
+				E7CCC66E1DD3018B00D76839 /* delegateVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
