@@ -1,3 +1,6 @@
 # RYAADemo
-pod spec
-  1、KVO.2、GCD.3、Block.4、Delegate
+Demo
+ 1、KVO.
+ 2、GCD.
+ 3、Block.
+ 4、Delegate.
