@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E76451911DD2B52C009EFF73 /* delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76451901DD2B52C009EFF73 /* delegate.m */; };
+		E76451941DD2B84B009EFF73 /* delegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E76451931DD2B84B009EFF73 /* delegateVC.m */; };
+		E771D9C61DCAC99100190263 /* kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9C51DCAC99100190263 /* kvo.m */; };
+		E771D9C91DCB0A3800190263 /* block.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9C81DCB0A3800190263 /* block.m */; };
+		E771D9CC1DCB293300190263 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E771D9CB1DCB293300190263 /* LoginVC.m */; };
+		E788861D1DD1A33D00105E1B /* sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E788861C1DD1A33D00105E1B /* sharedInstance.m */; };
+		E78B788C1DC9B87B005C5155 /* VCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B788B1DC9B87B005C5155 /* VCKVO.m */; };
+		E78B788F1DC9B8A6005C5155 /* VCGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B788E1DC9B8A6005C5155 /* VCGCD.m */; };
 		E7979BB11DAA0FEE002F08E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB01DAA0FEE002F08E0 /* main.m */; };
 		E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */; };
 		E7979BB71DAA0FEE002F08E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7979BB61DAA0FEE002F08E0 /* ViewController.m */; };
@@ -36,6 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E764518F1DD2B52C009EFF73 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegate.h; sourceTree = "<group>"; };
+		E76451901DD2B52C009EFF73 /* delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegate.m; sourceTree = "<group>"; };
+		E76451921DD2B84B009EFF73 /* delegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateVC.h; sourceTree = "<group>"; };
+		E76451931DD2B84B009EFF73 /* delegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateVC.m; sourceTree = "<group>"; };
+		E771D9C41DCAC99100190263 /* kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kvo.h; sourceTree = "<group>"; };
+		E771D9C51DCAC99100190263 /* kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kvo.m; sourceTree = "<group>"; };
+		E771D9C71DCB0A3800190263 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
+		E771D9C81DCB0A3800190263 /* block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = block.m; sourceTree = "<group>"; };
+		E771D9CA1DCB293300190263 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		E771D9CB1DCB293300190263 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		E788861B1DD1A33D00105E1B /* sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedInstance.h; sourceTree = "<group>"; };
+		E788861C1DD1A33D00105E1B /* sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedInstance.m; sourceTree = "<group>"; };
+		E78B788A1DC9B87B005C5155 /* VCKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVO.h; sourceTree = "<group>"; };
+		E78B788B1DC9B87B005C5155 /* VCKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVO.m; sourceTree = "<group>"; };
+		E78B788D1DC9B8A6005C5155 /* VCGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCGCD.h; sourceTree = "<group>"; };
+		E78B788E1DC9B8A6005C5155 /* VCGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCGCD.m; sourceTree = "<group>"; };
 		E7979BAC1DAA0FEE002F08E0 /* RYAADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYAADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7979BB01DAA0FEE002F08E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7979BB21DAA0FEE002F08E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +133,22 @@
 				E7979BB31DAA0FEE002F08E0 /* AppDelegate.m */,
 				E7979BB51DAA0FEE002F08E0 /* ViewController.h */,
 				E7979BB61DAA0FEE002F08E0 /* ViewController.m */,
+				E78B788D1DC9B8A6005C5155 /* VCGCD.h */,
+				E78B788E1DC9B8A6005C5155 /* VCGCD.m */,
+				E78B788A1DC9B87B005C5155 /* VCKVO.h */,
+				E78B788B1DC9B87B005C5155 /* VCKVO.m */,
+				E771D9C41DCAC99100190263 /* kvo.h */,
+				E771D9C51DCAC99100190263 /* kvo.m */,
+				E771D9C71DCB0A3800190263 /* block.h */,
+				E771D9C81DCB0A3800190263 /* block.m */,
+				E771D9CA1DCB293300190263 /* LoginVC.h */,
+				E771D9CB1DCB293300190263 /* LoginVC.m */,
+				E788861B1DD1A33D00105E1B /* sharedInstance.h */,
+				E788861C1DD1A33D00105E1B /* sharedInstance.m */,
+				E76451921DD2B84B009EFF73 /* delegateVC.h */,
+				E76451931DD2B84B009EFF73 /* delegateVC.m */,
+				E764518F1DD2B52C009EFF73 /* delegate.h */,
+				E76451901DD2B52C009EFF73 /* delegate.m */,
 				E7979BB81DAA0FEE002F08E0 /* Main.storyboard */,
 				E7979BBB1DAA0FEE002F08E0 /* Assets.xcassets */,
 				E7979BBD1DAA0FEE002F08E0 /* LaunchScreen.storyboard */,
@@ -287,10 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76451911DD2B52C009EFF73 /* delegate.m in Sources */,
 				E7979BB71DAA0FEE002F08E0 /* ViewController.m in Sources */,
+				E771D9C61DCAC99100190263 /* kvo.m in Sources */,
+				E771D9CC1DCB293300190263 /* LoginVC.m in Sources */,
 				E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */,
+				E78B788C1DC9B87B005C5155 /* VCKVO.m in Sources */,
+				E78B788F1DC9B8A6005C5155 /* VCGCD.m in Sources */,
+				E771D9C91DCB0A3800190263 /* block.m in Sources */,
 				E7979BB11DAA0FEE002F08E0 /* main.m in Sources */,
 				E7979BE51DAA1F3E002F08E0 /* AccessAuthority.m in Sources */,
+				E788861D1DD1A33D00105E1B /* sharedInstance.m in Sources */,
+				E76451941DD2B84B009EFF73 /* delegateVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
