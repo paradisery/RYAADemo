@@ -5,3 +5,4 @@ Demo，有详细介绍
  3、Block.
  4、Delegate.
  5、单例.
+ 6、NSUserDefaults
