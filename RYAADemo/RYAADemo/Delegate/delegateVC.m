@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view.
 }
 //雇佣方
-//实现代理方法
+//实现代理方法// 这里实现控制器的协议方法
 -(void)vcSendValue:(NSString *)value{
     _lable.text=value;
       NSLog(@"%@",value);

@@ -8,8 +8,12 @@
 
 #import "VCKVO.h"
 #import "kvo.h"
+#import "sharedInstance.h"
+#import "LoginVC.h"
 @interface VCKVO ()
 @property(nonatomic,strong)kvo * mykvo;
+@property (weak, nonatomic) IBOutlet UILabel *shareLabel;
+@property (weak, nonatomic) IBOutlet UILabel *nsudLabel;
 
 @end
 
@@ -50,6 +54,23 @@
 -(void)dealloc{
     [self removeObserver:self forKeyPath:@"kk"];
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+//单例
+    sharedInstance * ry=[sharedInstance sharedInstance];
+    _shareLabel.text=ry.useName;
+//NSUserDefaults
+    NSUserDefaults * nsud=[NSUserDefaults standardUserDefaults];
+    _nsudLabel.text=[nsud objectForKey:@"userName"];
+    
+}
+- (IBAction)goLoginVC:(id)sender {
+    UIStoryboard * sb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    LoginVC * lvc=[sb instantiateViewControllerWithIdentifier:@"loginvc"];
+    [self presentViewController:lvc animated:YES completion:nil];
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

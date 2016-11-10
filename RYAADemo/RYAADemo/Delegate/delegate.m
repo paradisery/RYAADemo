@@ -21,8 +21,8 @@
 }
 
 - (IBAction)btn:(id)sender {
-    if ([_delegate respondsToSelector:@selector(vcSendValue:)]) {
-         [_delegate vcSendValue:_tf.text];
+    if ([_delegate respondsToSelector:@selector(vcSendValue:)]) {// 如果协议响应了sendValue:方法
+         [_delegate vcSendValue:_tf.text];// 通知执行协议方法
     }
     [self dismissViewControllerAnimated:YES completion:nil];
 }

@@ -21,16 +21,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-    //单例
-    sharedInstance * ry=[sharedInstance sharedInstance];
-    NSLog(@"%@",ry);
-    
 }
 
 
 - (IBAction)btn:(id)sender {
-    self.block(_tf.text);
+    //用block传值
+    if (self.block) {
+        self.block(_tf.text);
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+- (IBAction)shareBack:(id)sender {
+    //单例
+    sharedInstance * ry=[sharedInstance sharedInstance];
+    ry.useName=_tf.text;
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)nsudBack:(id)sender {
+    //nsud
+    NSUserDefaults * nsud=[NSUserDefaults standardUserDefaults];
+    [nsud setObject:_tf.text forKey:@"userName"];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 -(void)textFieldDidEndEditing:(UITextField *)textField{

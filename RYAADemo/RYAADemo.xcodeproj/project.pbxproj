@@ -23,7 +23,6 @@
 		E7CCC6741DD3019500D76839 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6721DD3019500D76839 /* LoginVC.m */; };
 		E7CCC6771DD301A200D76839 /* VCGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC6761DD301A200D76839 /* VCGCD.m */; };
 		E7CCC67B1DD301B700D76839 /* sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC67A1DD301B700D76839 /* sharedInstance.m */; };
-		E7CCC67E1DD3037A00D76839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CCC67D1DD3037A00D76839 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +75,6 @@
 		E7CCC6761DD301A200D76839 /* VCGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCGCD.m; path = GCD/VCGCD.m; sourceTree = "<group>"; };
 		E7CCC6791DD301B700D76839 /* sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sharedInstance.h; path = "单例/sharedInstance.h"; sourceTree = "<group>"; };
 		E7CCC67A1DD301B700D76839 /* sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sharedInstance.m; path = "单例/sharedInstance.m"; sourceTree = "<group>"; };
-		E7CCC67C1DD3037A00D76839 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = GCD/ViewController.h; sourceTree = "<group>"; };
-		E7CCC67D1DD3037A00D76839 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = GCD/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,8 +204,6 @@
 			children = (
 				E7CCC6751DD301A200D76839 /* VCGCD.h */,
 				E7CCC6761DD301A200D76839 /* VCGCD.m */,
-				E7CCC67C1DD3037A00D76839 /* ViewController.h */,
-				E7CCC67D1DD3037A00D76839 /* ViewController.m */,
 			);
 			name = GCD;
 			sourceTree = "<group>";
@@ -372,7 +367,6 @@
 				E7CCC67B1DD301B700D76839 /* sharedInstance.m in Sources */,
 				E7CCC6771DD301A200D76839 /* VCGCD.m in Sources */,
 				E7CCC6741DD3019500D76839 /* LoginVC.m in Sources */,
-				E7CCC67E1DD3037A00D76839 /* ViewController.m in Sources */,
 				E7979BB41DAA0FEE002F08E0 /* AppDelegate.m in Sources */,
 				E7CCC6651DD300B200D76839 /* VCKVO.m in Sources */,
 				E7979BB11DAA0FEE002F08E0 /* main.m in Sources */,

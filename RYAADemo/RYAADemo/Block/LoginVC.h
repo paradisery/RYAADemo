@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-//声明Block
+//声明Block、名字、属性
 typedef void(^myBlock)(NSString * str);
 
 @interface LoginVC : UIViewController
-//创建对象
+//创建block对象
 @property(copy,nonatomic)myBlock block;
 
 @end

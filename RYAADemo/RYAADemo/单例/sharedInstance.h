@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 @interface sharedInstance : NSObject
-
+@property(nonatomic,strong)NSString * useName;
 +(instancetype)sharedInstance;
 
 @end
